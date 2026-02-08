@@ -7,7 +7,7 @@ interface FloatingHeartProps {
   show: boolean;
 }
 
-export const FloatingHeartProps: React.FC<FloatingHeartProps> = ({
+export const Floatinghearts: React.FC<FloatingHeartProps> = ({
   hearts,
   show,
 }) => {

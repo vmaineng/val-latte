@@ -1,4 +1,4 @@
-import { ValentinesWheel } from "@/components/ValentinesWheel";
+import { ValentinesWheel } from "./components/ValentinesWheel";
 
 export default function Home() {
   const coffeeShops = [

@@ -5,7 +5,7 @@ interface SpinButtonProps {
   isSpinning: boolean;
 }
 
-export const SpinButton: React.FC<SpinButtonProps> = ({
+export const Spinbutton: React.FC<SpinButtonProps> = ({
   onSpin,
   isSpinning,
 }) => {
