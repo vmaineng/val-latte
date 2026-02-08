@@ -1,13 +1,16 @@
+"use client";
+
+import React from "react";
 import { WheelOption } from "../types";
 import { calculateSegmentAngles, getClipPath } from "../utils/Wheelhelpers";
 
-interface WheelSegementProps {
+interface WheelSegmentProps {
   option: WheelOption;
   index: number;
-  totalSegements: number;
+  totalSegments: number;
 }
 
-export const WheelSegment: React.FC<WheelSegementProps> = ({
+export const WheelSegment: React.FC<WheelSegmentProps> = ({
   option,
   index,
   totalSegments,
