@@ -15,7 +15,7 @@ export const Resultmessage: React.FC<ResultMessageProps> = ({
   date,
   message,
 }) => {
-  if (!show | !shop) return null;
+  if (!show || !shop) return null;
 
   return (
     <div className="mt-8 text-center animate-fadeIn">
