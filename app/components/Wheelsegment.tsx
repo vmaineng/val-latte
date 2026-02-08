@@ -2,7 +2,7 @@
 
 import React from "react";
 import { WheelOption } from "../types";
-import { calculateSegmentAngles, getClipPath } from "../utils/Wheelhelpers";
+import { calculateSegmentAngles, getClipPath } from "../hooks/Wheelhelpers";
 
 interface WheelSegmentProps {
   option: WheelOption;
